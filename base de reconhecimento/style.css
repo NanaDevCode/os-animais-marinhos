@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap'); /* Importa a fonte "Mali" do Google Fonts, com um estilo "cute" de escrita à mão */
+
+* {
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos no tamanho total do elemento */
+}
+
+:root {
+    /* Paleta de Cores - Tema Azul Pastel */
+    --primary-color: #a0c4ff; /* Azul pastel principal para destaques e botões */
+    --secondary-color: #334155; /* Cor de texto principal (cinza-azulado escuro) */
+    --tertiary-color: #6b7280; /* Cor de texto secundária (cinza médio) */
+    --bg-color: #f0f8ff; /* Cor de fundo principal (azul muito claro, "AliceBlue") */
+    --card-bg-color: #ffffff; /* Cor de fundo para cards e cabeçalho (branco) */
+    --border-color: #e2e8f0; /* Cor para bordas sutis */
+    --shadow-color: rgba(160, 196, 255, 0.2); /* Cor para sombras suaves com base no azul primário */
+}
+
+body {
+    /* Adicionado para criar um layout de coluna flexível */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura total da tela */
+
+    margin: 0; /* Remove a margem padrão do body */
+    background-image: linear-gradient(to top, #eaf4ff 0%, var(--bg-color) 100%); /* Adiciona um gradiente sutil ao fundo */
+    color: var(--secondary-color); /* Aplica a cor de texto padrão */
+    font-family: "Mali", cursive; /* Define a família da fonte para Mali, com uma fonte cursiva como alternativa */    
+}
+
+header {
+    padding: 2rem 1rem; /* Define o espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex; /* Ativa o modelo de layout flexbox para os filhos diretos */
+    align-items: center; /* Alinha os itens flex no centro do eixo transversal (verticalmente) */
+    justify-content: space-around; /* Distribui os itens flex com espaço igual ao redor deles */
+    position: sticky; /* Faz o elemento "grudar" no topo da viewport ao rolar */
+    top: 0; /* Define a posição superior para 0 quando o elemento se torna sticky */
+    background: var(--card-bg-color); /* Define a cor de fundo do cabeçalho como branco */
+    z-index: 10; /* Define a ordem de empilhamento para que o cabeçalho fique sobre outros elementos */
+    border-bottom: 1px solid var(--border-color); /* Adiciona uma linha de borda sutil na parte inferior */
+    gap: 1rem; /* Define um espaçamento de 1rem entre os itens flex */
+    box-shadow: 0 2px 10px var(--shadow-color); /* Adiciona uma sombra decorativa */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    margin: 0; /* Remove todas as margens */
+    font-weight: 500; /* Define o peso da fonte como médio */
+    white-space: nowrap; /* Impede que o texto quebre para a próxima linha */
+    color: var(--primary-color); /* Usa a cor primária para o título */
+}
+
+/* Estilo para o novo menu suspenso de categorias */
+#category-select {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg-color);
+    color: var(--tertiary-color);
+    border-radius: 1.5rem; /* Bordas arredondadas */
+    cursor: pointer;
+    font-family: "Mali", cursive;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    -webkit-appearance: none; /* Remove a aparência padrão do sistema */
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    background-size: 1em;
+    padding-right: 2.5rem; /* Espaço para a seta */
+    box-shadow: 0 3px 8px var(--shadow-color);
+}
+
+/* Estilizando o container da busca para parecer uma única peça */
+#search-container {
+    display: flex; /* Alinha o input e o botão lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: var(--card-bg-color); /* Fundo branco */
+    border-radius: 2rem; /* Bordas bem arredondadas */
+    box-shadow: 0 3px 8px var(--shadow-color); /* Sombra suave */
+    padding: 0.25rem 0.25rem 0.25rem 1.5rem; /* Espaçamento interno */
+    transition: box-shadow 0.2s ease; /* Transição suave para a sombra */
+}
+
+#search-container:focus-within {
+    box-shadow: 0 0 0 0.2rem var(--shadow-color); /* Adiciona um brilho ao focar no input */
+}
+
+#search-container input {
+    flex-grow: 1; /* Faz o input ocupar o espaço disponível */
+    padding: 0.75rem 0.5rem; /* Espaçamento interno */
+    border: none; /* Remove a borda para um visual mais limpo */
+    background: transparent; /* Fundo transparente para mostrar o fundo do container */
+    outline: none; /* Remove o contorno de foco */
+    font-family: inherit; /* Faz o campo herdar a fonte do elemento pai */
+    font-size: 1.2rem; /* Ajusta o tamanho da fonte */
+    width: 30rem; /* Define a largura do campo */
+    color: var(--secondary-color); /* Define a cor do texto digitado */
+}
+
+#search-container input::placeholder {
+    font-size: 1rem; /* Ajusta o tamanho da fonte para o texto do placeholder */
+    font-weight: 300; /* Define o peso da fonte para o texto do placeholder como leve */
+    color: var(--tertiary-color); /* Define a cor do texto do placeholder */
+}
+
+/* Corrigido: Usando o seletor de ID #botão-busca para corresponder ao HTML */
+#botão-busca {
+    padding: 1rem 2rem; /* Corrigido: Padding para dar espaço interno ao botão */
+    border: none; /* Corrigido: Valor 'none' para remover a borda */
+    outline: none; /* Corrigido: Valor 'none' para remover o contorno */
+    cursor: pointer; /* Muda o cursor para uma "mãozinha" para indicar que é clicável */
+    font-family: inherit; /* Faz o botão herdar a fonte do elemento pai */
+    font-weight: 500; /* Deixa a fonte do botão um pouco mais suave */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    white-space: nowrap; /* Impede que o texto do botão quebre para a próxima linha */
+    /* A transição com cubic-bezier cria um efeito mais elástico e "saltitante" */
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+    background-color: var(--primary-color); /* Melhoria: Usando variável de cor do tema */
+    color: var(--card-bg-color); /* Melhoria: Usando variável de cor do tema */
+    box-shadow: 0 3px 8px var(--shadow-color); /* Adiciona uma sombra um pouco mais difusa */
+    border-radius: 2rem; /* Adicionado para manter o estilo arredondado */
+}
+
+#botão-busca:hover {
+    transform: scale(1.05); /* Efeito de aumentar o botão ao passar o mouse, para um toque mais divertido */
+    box-shadow: 0 5px 15px var(--shadow-color); /* Aumenta a sombra para dar mais destaque */
+}
+
+#botão-busca:active {
+    transform: scale(0.95); /* Efeito de "amassar" o botão ao ser pressionado */
+    box-shadow: 0 2px 5px var(--shadow-color); /* Diminui a sombra durante o clique */
+}
+
+main {
+    flex-grow: 1; /* Faz com que o main ocupe todo o espaço disponível, empurrando o footer para baixo */
+    max-width: 80rem; /* Define a largura máxima para o conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal na página (horizontalmente) */
+    padding: 2rem 0; /* Adiciona espaçamento interno no topo e na base */
+    /* A propriedade 'height' foi removida para permitir que o conteúdo flua naturalmente */
+}
+
+/* Novo container dos cards com layout em grade */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cria colunas responsivas */
+    gap: 1.5rem; /* Espaçamento entre os cards */
+    padding: 0 1rem; /* Adiciona um padding lateral */
+}
+
+article {
+    background: var(--card-bg-color); /* Fundo branco para os cards */
+    border-radius: 1rem; /* Corrigido: Bordas arredondadas para um visual suave */
+    padding: 1.5rem; /* Espaçamento interno */
+    position: relative; /* Necessário para posicionar a tag da categoria */
+    /* margin-bottom removido, pois o 'gap' do grid agora controla o espaçamento */
+    box-shadow: 0 4px 15px var(--shadow-color); /* Sombra decorativa para o card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave para o hover */
+    border: 1px solid var(--border-color); /* Borda sutil */
+}
+
+article:hover {
+    transform: translateY(-5px) scale(1.01); /* Efeito de levantar e aumentar o card */
+    box-shadow: 0 8px 25px var(--shadow-color); /* Sombra mais pronunciada no hover */
+    cursor: pointer; /* Muda o cursor para uma "mãozinha" para indicar que é clicável */
+}
+
+/* Estilo para a nova tag de categoria */
+.card-category {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--card-bg-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+article h2 {
+    margin-top: 0; /* Remove a margem superior */
+    font-weight: 600; /* Define o peso da fonte como semi-negrito */
+    line-height: 1.2;
+    font-size: 1.6rem; /* Define o tamanho da fonte */
+    border-bottom: none; /* Remove a borda inferior */
+    padding-bottom: 0; /* Remove o espaçamento interno inferior */
+    margin-bottom: 0.25rem; /* Adiciona uma pequena margem inferior */
+    color: var(--primary-color); /* Define a cor do texto */
+}
+
+article p {
+    margin: 0.5rem 0; /* Define as margens superior e inferior */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para melhor legibilidade */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    margin-bottom: 0.5rem; /* Adiciona uma margem inferior */
+    color: var(--tertiary-color); /* Usa a cor terciária para o texto do parágrafo */
+}
+
+article p strong {
+    color: var(--secondary-color); /* Define a cor para o texto em negrito dentro de um parágrafo */
+    font-weight: 500; /* Define o peso da fonte como médio para dar destaque */
+}
+
+/* Novo: Estilo para a imagem do animal dentro do card */
+article img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: 200px; /* Define uma altura fixa para manter a consistência do layout */
+    object-fit: cover; /* Garante que a imagem cubra a área designada sem distorcer */
+    border-radius: 0.75rem; /* Bordas arredondadas para um visual mais suave */
+    margin-top: 1rem; /* Adiciona um espaço entre a descrição e a imagem */
+    border: 1px solid var(--border-color); /* Adiciona uma borda sutil */
+}
+
+article a {
+    color: var(--primary-color); /* Define a cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    font-weight: 200; /* Define o peso da fonte como extra-leve */
+}
+
+article a:hover {
+    text-decoration-line: overline; /* Adiciona um sublinhado quando o mouse está sobre o link */
+}
+
+.footer {
+    /* Adicionado para centralizar o conteúdo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem; /* Espaçamento entre o parágrafo e a lista de links */
+
+    width: 100%;
+    color: var(--tertiary-color); /* Define a cor do texto */
+    background-color: transparent; /* Fundo transparente para mesclar com o body */
+    padding: 1.5rem 1rem; /* Ajustado o padding para um espaçamento consistente */
+    border-top: 1px solid var(--border-color); /* Corrige a cor da borda para o tema atual */
+    font-size: 1.10rem; /* Reduz o tamanho da fonte para um visual mais discreto */
+}
+
+.footer-links {
+    margin: 0; /* Remove a margem padrão da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    list-style: none; /* Remove os marcadores (bolinhas) da lista */
+    display: flex; /* Ativa o modelo de layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem para a próxima linha se não houver espaço */
+    justify-content: center; /* Centraliza os itens da lista horizontalmente */
+    gap: 15px; /* Define um espaçamento de 15px entre os links */
+}
+
+.footer-links a {
+    color: var(--tertiary-color); /* Define a cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão. 'dotted' é um valor inválido aqui. */
+    transition: color 0.2s; /* Anima suavemente a mudança de cor do link */
+}
+
+.footer-links a:hover {
+    color: var(--primary-color); /* Muda a cor do link quando o mouse está sobre ele */
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Empilha os itens do cabeçalho verticalmente */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 {
+        text-align: center; /* Centraliza o texto do título */
+        margin-bottom: 1rem; /* Adiciona uma margem inferior */
+    }
+
+    /* Corrigido: A largura do input precisa ser ajustada para telas menores */
+    .search-container input {
+        width: 100%; /* Ocupa a largura do container que agora é menor */
+        min-width: 250px; /* Garante uma largura mínima para não ficar muito pequeno */
+    }
+
+    main {
+        padding: 0 1rem; /* Adiciona espaçamento interno nas laterais */
+    }
+
+    article:hover {
+        transform: none; /* Remove o efeito de zoom ao passar o mouse em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte do título */
+        max-width: 70%; /* Limita a largura máxima do título */
+        word-wrap: break-word; /* Permite que palavras longas quebrem para a próxima linha */
+    }
+
+    .search-container input,
+    .search-container input::placeholder {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte do campo e do placeholder */
+    }
+
+    /* Corrigido: A largura do input precisa ser redefinida para o layout de coluna */
+    .search-container input {
+        width: 90vw; /* Garante que o input não ultrapasse a tela */
+        min-width: unset; /* Remove a largura mínima da regra anterior */
+    }
+
+    article h2 {
+        font-size: 1.3rem; /* Reduz o tamanho da fonte do título do artigo */
+    }
+
+    button {
+        margin-top: 1rem; /* Adiciona uma margem no topo do botão */
+    }
+}

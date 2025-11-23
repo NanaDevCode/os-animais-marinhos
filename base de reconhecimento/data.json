@@ -1,0 +1,491 @@
+[
+  {
+    "nome": "Baleia-azul",
+    "categoria": "Cetáceos",
+    "nome_científico": "Balaenoptera musculus",
+    "descricao": "O maior animal que já existiu na Terra. Seu coração pode ter o tamanho de um carro pequeno e seu chamado é um dos sons mais altos produzidos por um animal.",
+    "link": "https://pt.wikipedia.org/wiki/Baleia-azul"
+  },
+  {
+    "nome": "Golfinho-nariz-de-garrafa",
+    "categoria": "Cetáceos",
+    "nome_científico": "Tursiops truncatus",
+    "descricao": "Extremamente inteligentes e sociais, conhecidos por suas acrobacias e comunicação complexa. Usam a ecolocalização para encontrar presas e navegar.",
+    "link": "https://pt.wikipedia.org/wiki/Golfinho-nariz-de-garrafa"
+  },
+  { "nome": "Orca",
+    "categoria": "Cetáceos",
+    "nome_científico": "Orcinus orca",
+    "descricao": "Predador do topo da cadeia alimentar, também conhecido como baleia-assassina. Possui complexas estruturas sociais e técnicas de caça cooperativas.",
+    "link": "https://pt.wikipedia.org/wiki/Orca"
+  },
+  {
+    "nome": "Baleia-jubarte",
+    "categoria": "Cetáceos",
+    "nome_científico": "Megaptera novaeangliae",
+    "descricao": "Famosa por seus saltos espetaculares e pelos complexos cantos dos machos. Suas nadadeiras peitorais são as maiores do reino animal em proporção ao corpo.",
+    "link": "https://pt.wikipedia.org/wiki/Baleia-jubarte"
+  },
+  {
+    "nome": "Peixe-boi-marinho",
+    "categoria": "Sirênios",
+    "nome_científico": "Trichechus manatus",
+    "descricao": "Herbívoro gentil e de movimentos lentos, também chamado de 'vaca-marinha'. Passa a maior parte do tempo pastando em águas rasas e quentes.",
+    "link": "https://pt.wikipedia.org/wiki/Peixe-boi-marinho"
+  },
+  {
+    "nome": "Lontra-marinha",
+    "categoria": "Mamíferos",
+    "nome_científico": "Enhydra lutris",
+    "descricao": "Possui a pelagem mais densa de todos os animais e é conhecida por usar pedras como ferramentas para abrir conchas enquanto flutua de costas.",
+    "link": "https://pt.wikipedia.org/wiki/Lontra-marinha"
+  },
+  {
+    "nome": "Leão-marinho",
+    "categoria": "Mamíferos",
+    "nome_científico": "Otariinae",
+    "descricao": "Diferencia-se das focas por ter orelhas externas visíveis e pela capacidade de 'andar' em terra usando suas quatro nadadeiras.",
+    "link": "https://pt.wikipedia.org/wiki/Le%C3%A3o-marinho"
+  },
+  {
+    "nome": "Foca-leopardo",
+    "categoria": "Mamíferos",
+    "nome_científico": "Hydrurga leptonyx",
+    "descricao": "Um dos principais predadores da Antártida, com um corpo esguio e uma cabeça grande e reptiliana. Alimenta-se de pinguins, focas menores e krill.",
+    "link": "https://pt.wikipedia.org/wiki/Foca-leopardo"
+  },
+  {
+    "nome": "Narval",
+    "categoria": "Cetáceos",
+    "nome_científico": "Monodon monoceros",
+    "descricao": "Conhecido como o 'unicórnio do mar' devido ao seu longo dente em espiral, que pode atingir até 3 metros de comprimento nos machos.",
+    "link": "https://pt.wikipedia.org/wiki/Narval"
+  },
+  {
+    "nome": "Baleia-franca",
+    "categoria": "Cetáceos",
+    "nome_científico": "Eubalaena",
+    "descricao": "Caracterizada por calosidades na cabeça e pela ausência de barbatana dorsal. Flutua quando morta, o que a tornou a baleia 'certa' (right whale) para caçar.",
+    "link": "https://pt.wikipedia.org/wiki/Baleia-franca/"
+  },
+  {
+    "nome": "Peixe-palhaço",
+    "categoria": "Peixes",
+    "nome_científico": "Amphiprioninae",
+    "descricao": "Conhecido por sua relação simbiótica com as anêmonas-do-mar. Eles são imunes às picadas venenosas das anêmonas, que os protegem de predadores.",
+    "link": "https://pt.wikipedia.org/wiki/Amphiprioninae"
+  },
+  {
+    "nome": "Tubarão-branco",
+    "categoria": "Peixes",
+    "nome_científico": "Carcharodon carcharias",
+    "descricao": "Um dos maiores peixes predadores do mundo. Possui múltiplas fileiras de dentes serrilhados que são constantemente substituídos ao longo de sua vida.",
+    "link": "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-branco"
+  },
+  {
+    "nome": "Cavalo-marinho",
+    "categoria": "Peixes",
+    "nome_científico": "Hippocampus",
+    "descricao": "Única espécie animal em que o macho carrega os ovos em uma bolsa incubadora e 'dá à luz' aos filhotes. São nadadores lentos e usam a cauda para se agarrar a corais.",
+    "link": "https://pt.wikipedia.org/wiki/Cavalo-marinho"
+  },
+  {
+    "nome": "Peixe-mandarim",
+    "categoria": "Peixes",
+    "nome_científico": "Synchiropus splendidus",
+    "descricao": "Considerado um dos peixes mais coloridos do mundo, com um corpo vibrante em tons de azul, laranja e verde. Não possui escamas, mas sim uma pele com muco de cheiro forte.",
+    "link": "https://pt.wikipedia.org/wiki/Peixe-mandarim"
+  },
+  {
+    "nome": "Dragão-marinho-folhado",
+    "categoria": "Peixes",
+    "nome_científico": "Phycodurus eques",
+    "descricao": "Parente do cavalo-marinho, possui longas protuberâncias em forma de folha por todo o corpo, que servem como uma camuflagem perfeita entre algas e ervas marinhas..",
+    "link": "https://pt.wikipedia.org/wiki/Drag%C3%A3o-marinho-folhado"
+  },
+  {
+    "nome": "Peixe-leão",
+    "categoria": "Peixes",
+    "nome_científico": "Pterois volitans",
+    "descricao": "Possui espinhos dorsais venenosos e uma aparência listrada impressionante. É uma espécie invasora em muitas partes do mundo, causando desequilíbrio ecológico.",
+    "link": "https://pt.wikipedia.org/wiki/Peixe-le%C3%A3o"
+  },
+  {
+    "nome": "Raia-jamanta",
+    "categoria": "Peixes",
+    "nome_científico": "Manta birostris",
+    "descricao": "A maior espécie de raia do mundo. É um gigante gentil que se alimenta por filtração, nadando com sua enorme boca aberta para capturar plâncton.",
+    "link": "https://pt.wikipedia.org/wiki/Raia-jamanta"
+  },
+  {
+    "nome": "Atum-rabilho",
+    "categoria": "Peixes",
+    "nome_científico": "Thunnus thynnus",
+    "descricao": "Um dos peixes mais rápidos e poderosos do oceano. É um predador de sangue quente, o que lhe permite nadar em águas frias e caçar com grande eficiência.",
+    "link": "https://pt.wikipedia.org/wiki/Atum-rabilho"
+  },
+  {
+    "nome": "Moreia",
+    "categoria": "Peixes",
+    "nome_científico": "Muraenidae",
+    "descricao": "Enguia carnívora que vive em fendas e buracos de recifes. Possui uma segunda mandíbula na garganta (mandíbula faríngea) para ajudar a engolir presas.",
+    "link": "https://pt.wikipedia.org/wiki/Moreia"
+  },
+  {
+    "nome": "Peixe-lanterna",
+    "categoria": "Peixes",
+    "nome_científico": "Myxtophidae",
+    "descricao": "Pequeno peixe de águas profundas que possui órgãos produtores de luz (fotóforos) em seu corpo, usados para comunicação e camuflagem.",
+    "link": "https://pt.wikipedia.org/wiki/Peixe-lanterna7"
+  },
+  {
+    "nome": "Polvo-mímico",
+    "categoria": "Cefalópodes",
+    "nome_científico": "Thaumoctopus mimicus",
+    "descricao": "Mestre do disfarce, este polvo é capaz de imitar a aparência e os movimentos de mais de 15 outras espécies marinhas, como peixes-leão e serpentes marinhas.",
+    "link": "https://pt.wikipedia.org/wiki/Polvo-m%C3%ADmico"
+  },
+  {
+    "nome": "Lula-vampira-do-inferno",
+    "categoria": "Cefalópodes",
+    "nome_científico": "Vampyroteuthis infernalis",
+    "descricao": "Vive nas profundezas escuras do oceano. Quando ameaçada, pode virar sua 'capa' de pele escura do avesso, cobrindo o corpo e exibindo espinhos que não são perigosos.",
+    "link": "https://pt.wikipedia.org/wiki/Lula-vampira-do-inferno"
+  },
+  {
+    "nome": "Náutilo",
+    "categoria": "Cefalópodes",
+    "nome_científico": "Nautilus pompilius",
+    "descricao": "Considerado um 'fóssil vivo', pois sua forma mudou pouco nos últimos 500 milhões de anos. Possui uma concha externa em espiral dividida em câmaras.",
+    "link": "https://pt.wikipedia.org/wiki/Nautilus/"
+  },
+  {
+    "nome": "Lula-colossal",
+    "categoria": "Cefalópodes",
+    "nome_científico": "Mesonychoteuthis hamiltoni",
+    "descricao": "A maior espécie de lula em massa corporal. Possui os maiores olhos do reino animal e ganchos giratórios em seus tentáculos.",
+    "link": "https://pt.wikipedia.org/wiki/Lula-colossal"
+  },
+  {
+    "nome": "Lesma-do-mar (nudibrânquio)",
+    "categoria": "Moluscos",
+    "nome_científico": "Nudibranchia",
+    "descricao": "Grupo de moluscos gastrópodes marinhos sem concha, conhecidos por suas cores extraordinariamente vibrantes e formas exóticas.",
+    "link": "https://pt.wikipedia.org/wiki/Nudibranchia"
+  },
+  {
+    "nome": "Vieira",
+    "categoria": "Moluscos",
+    "nome_científico": "Pectinidae",
+    "descricao": "Molusco bivalve que pode nadar ativamente por curtas distâncias, batendo suas conchas. Possui uma fileira de pequenos olhos azuis ao longo da borda do manto.",
+    "link": "https://pt.wikipedia.org/wiki/Pectinidae"
+  },
+  {
+    "nome": "Siba",
+    "categoria": "Cefalópodes",
+    "nome_científico": "Sepiida",
+    "descricao": "Cefalópode mestre da camuflagem, capaz de mudar a cor e a textura de sua pele instantaneamente. Possui uma concha interna porosa chamada 'osso de choco'.",
+    "link": "https://pt.wikipedia.org/wiki/Siba"
+  },
+  {
+    "nome": "Caramujo-do-cone",
+    "categoria": "Moluscos",
+    "nome_científico": "Conidae",
+    "descricao": "Caracol marinho predador que usa um dente modificado como um arpão para injetar uma neurotoxina potente em suas presas. Alguns são perigosos para humanos.",
+    "link": "https://pt.wikipedia.org/wiki/Ostra"
+  },
+  {
+    "nome": "Polvo-dos-anéis-azuis",
+    "categoria": "Cefalópodes",
+    "nome_científico": "Hapalochlaena",
+    "descricao": "Pequeno polvo cujo veneno é um dos mais mortais do mundo, contendo tetrodotoxina. Exibe anéis azuis iridescentes quando se sente ameaçado.",
+    "link": "https://pt.wikipedia.org/wiki/Polvo-de-an%C3%A9is-azuis"
+  },
+  {
+    "nome": "Tartaruga-de-couro",
+    "categoria": "Répteis",
+    "nome_científico": "Dermochelys coricea",
+    "descricao": "A maior de todas as tartarugas marinhas. Diferente das outras, sua carapaça não é uma placa óssea dura, mas sim coberta por pele e carne oleosa, parecida com couro.",
+    "link": "https://pt.wikipedia.org/wiki/Tartaruga-de-couro"
+  },
+  {
+    "nome": "Caranguejo-ferradura",
+    "categoria": "Artrópodes",
+    "nome_científico": "Limulidae",
+    "descricao": "Apesar do nome, são mais próximos de aranhas e escorpiões. Seu sangue azul é vital para a indústria farmacêutica na detecção de contaminação bacteriana.",
+    "link": "https://pt.wikipedia.org/wiki/Limulidae"
+  },
+  {
+    "nome": "Lagosta",
+    "categoria": "Crustáceos",
+    "nome_científico": "Nephropidae",
+    "descricao": "Decápode com um corpo longo e musculoso. Possui um par de garras grandes e poderosas, sendo uma para esmagar e outra para cortar.",
+    "link": "https://pt.wikipedia.org/wiki/Lagosta"
+  },
+  {
+    "nome": "Camarão-mantis",
+    "categoria": "Crustáceos",
+    "nome_científico": "Stomatopoda",
+    "descricao": "Possui um dos sistemas de visão mais complexos do reino animal e um par de apêndices que podem golpear com a velocidade de uma bala de calibre .22.",
+    "link": "https://pt.wikipedia.org/wiki/Stomatopoda"
+  },
+  {
+    "nome": "Caranguejo-eremita",
+    "categoria": "Crustáceos",
+    "nome_científico": "Paguroidea",
+    "descricao": "Não possui uma carapaça própria e protege seu abdômen mole usando conchas de caracóis abandonadas, trocando-as à medida que cresce.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-eremita"
+  },
+  {
+    "nome": "Krill",
+    "categoria": "Crustáceos",
+    "nome_científico": "Euphausiacea",
+    "descricao": "Pequenos crustáceos semelhantes a camarões que formam enormes enxames e são a base da cadeia alimentar em ecossistemas como o da Antártida.",
+    "link": "https://pt.wikipedia.org/wiki/Krill"
+  },
+  {
+    "nome": "Caranguejo-aranha-japonês",
+    "categoria": "Crustáceos",
+    "nome_científico": "Macrocheira kaempferi",
+    "descricao": "Possui a maior envergadura de pernas de qualquer artrópode, podendo chegar a quase 4 metros. Vive nas profundezas do Oceano Pacífico.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-aranha-japon%C3%AAs"
+  },
+  {
+    "nome": "Craca",
+    "categoria": "Crustáceos",
+    "nome_científico": "Cirripedia",
+    "descricao": "Crustáceo que se fixa em superfícies duras como rochas e cascos de navios. Alimenta-se por filtração, usando suas pernas modificadas (cirros) para capturar plâncton.",
+    "link": "https://pt.wikipedia.org/wiki/Craca"
+  },
+  {
+    "nome": "Camarão-pistola",
+    "categoria": "Crustáceos",
+    "nome_científico": "Alpheidae",
+    "descricao": "Possui uma garra especializada que pode fechar tão rapidamente que cria uma bolha de cavitação, gerando um som extremamente alto e uma onda de choque que atordoa a presa.",
+    "link": "https://pt.wikipedia.org/wiki/Alpheidae"
+  },
+  {
+    "nome": "Caranguejo-violinista",
+    "categoria": "Crustáceos",
+    "nome_científico": "Uca",
+    "descricao": "Os machos possuem uma garra desproporcionalmente grande, que usam para sinalizar, lutar com outros machos e cortejar as fêmeas.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-violinista"
+  },
+  {
+    "nome": "Caranguejo-dos-coqueiros",
+    "categoria": "Crustáceos",
+    "nome_científico": "Birgus latro",
+    "descricao": "O maior artrópode terrestre do mundo. É conhecido por sua capacidade de quebrar cocos com suas garras poderosas para se alimentar.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-dos-coqueiros"
+  },
+  {
+    "nome": "Axolote",
+    "categoria": "Anfíbios",
+    "nome_científico": "Ambystoma mexicanum",
+    "descricao": "Uma salamandra que raramente completa a metamorfose, vivendo permanentemente em seu estágio larval aquático. Possui uma incrível capacidade de regenerar membros perdidos.",
+    "link": "https://pt.wikipedia.org/wiki/Axolote"
+  },
+  {
+    "nome": "Água-viva-juba-de-leão",
+    "categoria": "Cnidários",
+    "nome_científico": "Cynea capillata",
+    "descricao": "A maior espécie de água-viva conhecida. Seus tentáculos podem atingir mais de 30 metros de comprimento, mais longos que uma baleia-azul.",
+    "link": "https://pt.wikipedia.org/wiki/%C3%81gua-viva-juba-de-le%C3%A3o"
+  },
+  {
+    "nome": "Coral",
+    "categoria": "Cnidários",
+    "nome_científico": "Anthozoa",
+    "descricao": "Animais coloniais que secretam um esqueleto de carbonato de cálcio, formando os recifes de coral, um dos ecossistemas mais diversos do planeta.",
+    "link": "https://pt.wikipedia.org/wiki/Coral"
+  },
+  {
+    "nome": "Anêmona-do-mar",
+    "categoria": "Cnidários",
+    "nome_científico": "Actiniaria",
+    "descricao": "Predador séssil que se fixa em rochas ou no fundo do mar, usando seus tentáculos venenosos para capturar presas como peixes e camarões.",
+    "link": "https://pt.wikipedia.org/wiki/An%C3%AAmona-do-mar"
+  },
+  {
+    "nome": "Caravela-portuguesa",
+    "categoria": "Cnidários",
+    "nome_científico": "Physalia physalis",
+    "descricao": "Não é uma única água-viva, mas uma colônia flutuante de organismos especializados (pólipos). Sua picada é extremamente dolorosa e perigosa.",
+    "link": "https://pt.wikipedia.org/wiki/Caravela-portuguesa"
+  },
+  {
+    "nome": "Estrela-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "Asteroidea",
+    "descricao": "Possui uma notável capacidade de regenerar braços perdidos. Alimenta-se evertendo seu estômago para fora da boca para digerir a presa externamente.",
+    "link": "https://pt.wikipedia.org/wiki/Estrela-do-mar"
+  },
+  {
+    "nome": "Ouriço-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "Echinoidea",
+    "descricao": "Corpo esférico coberto por espinhos móveis, que usa para locomoção e defesa. Alimenta-se de algas usando uma estrutura bucal complexa chamada 'Lanterna de Aristóteles'.",
+    "link": "https://pt.wikipedia.org/wiki/Ouri%C3%A7o-do-mar"
+  },
+  {
+    "nome": "pepino-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "Holothuroidea",
+    "descricao": "Equinodermo de corpo alongado e mole. Quando ameaçado, pode expelir partes de seus órgãos internos (evisceração) para distrair predadores, regenerando-os depois.",
+    "link": "https://pt.wikipedia.org/wiki/Pepino-do-mar"
+  },
+  {
+    "nome": "Bolacha-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "clypeasteroida",
+    "descricao": "Ouriço-do-mar achatado e de corpo rígido, adaptado para viver em fundos arenosos. Seu esqueleto seco e sem espinhos é frequentemente encontrado em praias.",
+    "link": "https://pt.wikipedia.org/wiki/Bolacha-do-mar"
+  },
+  {
+    "nome": "Polvo-dos-anéis-azuis",
+    "categoria": "Cefalópodes",
+    "nome_científico": "Hapalochlaena",
+    "descricao": "Pequeno polvo cujo veneno é um dos mais mortais do mundo, contendo tetrodotoxina. Exibe anéis azuis iridescentes quando se sente ameaçado.",
+    "link": "https://pt.wikipedia.org/wiki/Polvo-de-an%C3%A9is-azuis"
+  },
+  {
+    "nome": "Tartaruga-de-couro",
+    "categoria": "Répteis",
+    "nome_científico": "Dermochelys coricea",
+    "descricao": "A maior de todas as tartarugas marinhas. Diferente das outras, sua carapaça não é uma placa óssea dura, mas sim coberta por pele e carne oleosa, parecida com couro.",
+    "link": "https://pt.wikipedia.org/wiki/Tartaruga-de-couro"
+  },
+  {
+    "nome": "Caranguejo-ferradura",
+    "categoria": "Artrópodes",
+    "nome_científico": "Limulidae",
+    "descricao": "Apesar do nome, são mais próximos de aranhas e escorpiões. Seu sangue azul é vital para a indústria farmacêutica na detecção de contaminação bacteriana.",
+    "link": "https://pt.wikipedia.org/wiki/Limulidae"
+  },
+  {
+    "nome": "Lagosta",
+    "categoria": "Crustáceos",
+    "nome_científico": "Nephropidae",
+    "descricao": "Decápode com um corpo longo e musculoso. Possui um par de garras grandes e poderosas, sendo uma para esmagar e outra para cortar.",
+    "link": "https://pt.wikipedia.org/wiki/Lagosta"
+  },
+  {
+    "nome": "Camarão-mantis",
+    "categoria": "Crustáceos",
+    "nome_científico": "Stomatopoda",
+    "descricao": "Possui um dos sistemas de visão mais complexos do reino animal e um par de apêndices que podem golpear com a velocidade de uma bala de calibre .22.",
+    "link": "https://pt.wikipedia.org/wiki/Stomatopoda"
+  },
+  {
+    "nome": "Caranguejo-eremita",
+    "categoria": "Crustáceos",
+    "nome_científico": "Paguroidea",
+    "descricao": "Não possui uma carapaça própria e protege seu abdômen mole usando conchas de caracóis abandonadas, trocando-as à medida que cresce.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-eremita"
+  },
+  {
+    "nome": "Krill",
+    "categoria": "Crustáceos",
+    "nome_científico": "Euphausiacea",
+    "descricao": "Pequenos crustáceos semelhantes a camarões que formam enormes enxames e são a base da cadeia alimentar em ecossistemas como o da Antártida.",
+    "link": "https://pt.wikipedia.org/wiki/Krill"
+  },
+  {
+    "nome": "Caranguejo-aranha-japonês",
+    "categoria": "Crustáceos",
+    "nome_científico": "Macrocheira kaempferi",
+    "descricao": "Possui a maior envergadura de pernas de qualquer artrópode, podendo chegar a quase 4 metros. Vive nas profundezas do Oceano Pacífico.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-aranha-japon%C3%AAs"
+  },
+  {
+    "nome": "Craca",
+    "categoria": "Crustáceos",
+    "nome_científico": "Cirripedia",
+    "descricao": "Crustáceo que se fixa em superfícies duras como rochas e cascos de navios. Alimenta-se por filtração, usando suas pernas modificadas (cirros) para capturar plâncton.",
+    "link": "https://pt.wikipedia.org/wiki/Craca"
+  },
+  {
+    "nome": "Camarão-pistola",
+    "categoria": "Crustáceos",
+    "nome_científico": "Alpheidae",
+    "descricao": "Possui uma garra especializada que pode fechar tão rapidamente que cria uma bolha de cavitação, gerando um som extremamente alto e uma onda de choque que atordoa a presa.",
+    "link": "https://pt.wikipedia.org/wiki/Alpheidae"
+  },
+  {
+    "nome": "Caranguejo-violinista",
+    "categoria": "Crustáceos",
+    "nome_científico": "Uca",
+    "descricao": "Os machos possuem uma garra desproporcionalmente grande, que usam para sinalizar, lutar com outros machos e cortejar as fêmeas.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-violinista"
+  },
+  {
+    "nome": "Caranguejo-dos-coqueiros",
+    "categoria": "Crustáceos",
+    "nome_científico": "Birgus latro",
+    "descricao": "O maior artrópode terrestre do mundo. É conhecido por sua capacidade de quebrar cocos com suas garras poderosas para se alimentar.",
+    "link": "https://pt.wikipedia.org/wiki/Caranguejo-dos-coqueiros"
+  },
+  {
+    "nome": "Axolote",
+    "categoria": "Anfíbios",
+    "nome_científico": "Ambystoma mexicanum",
+    "descricao": "Uma salamandra que raramente completa a metamorfose, vivendo permanentemente em seu estágio larval aquático. Possui uma incrível capacidade de regenerar membros perdidos.",
+    "link": "https://pt.wikipedia.org/wiki/Axolote"
+  },
+  {
+    "nome": "Água-viva-juba-de-leão",
+    "categoria": "Cnidários",
+    "nome_científico": "Cynea capillata",
+    "descricao": "A maior espécie de água-viva conhecida. Seus tentáculos podem atingir mais de 30 metros de comprimento, mais longos que uma baleia-azul.",
+    "link": "https://pt.wikipedia.org/wiki/%C3%81gua-viva-juba-de-le%C3%A3o"
+  },
+  {
+    "nome": "Coral",
+    "categoria": "Cnidários",
+    "nome_científico": "Anthozoa",
+    "descricao": "Animais coloniais que secretam um esqueleto de carbonato de cálcio, formando os recifes de coral, um dos ecossistemas mais diversos do planeta.",
+    "link": "https://pt.wikipedia.org/wiki/Coral"
+  },
+  {
+    "nome": "Anêmona-do-mar",
+    "categoria": "Cnidários",
+    "nome_científico": "Actiniaria",
+    "descricao": "Predador séssil que se fixa em rochas ou no fundo do mar, usando seus tentáculos venenosos para capturar presas como peixes e camarões.",
+    "link": "https://pt.wikipedia.org/wiki/An%C3%AAmona-do-mar"
+  },
+  {
+    "nome": "Caravela-portuguesa",
+    "categoria": "Cnidários",
+    "nome_científico": "Physalia physalis",
+    "descricao": "Não é uma única água-viva, mas uma colônia flutuante de organismos especializados (pólipos). Sua picada é extremamente dolorosa e perigosa.",
+    "link": "https://pt.wikipedia.org/wiki/Caravela-portuguesa"
+  },
+  {
+    "nome": "Estrela-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "Asteroidea",
+    "descricao": "Possui uma notável capacidade de regenerar braços perdidos. Alimenta-se evertendo seu estômago para fora da boca para digerir a presa externamente.",
+    "link": "https://pt.wikipedia.org/wiki/Estrela-do-mar"
+  },
+  {
+    "nome": "Ouriço-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "Echinoidea",
+    "descricao": "Corpo esférico coberto por espinhos móveis, que usa para locomoção e defesa. Alimenta-se de algas usando uma estrutura bucal complexa chamada 'Lanterna de Aristóteles'.",
+    "link": "https://pt.wikipedia.org/wiki/Ouri%C3%A7o-do-mar"
+  },
+  {
+    "nome": "pepino-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "Holothuroidea",
+    "descricao": "Equinodermo de corpo alongado e mole. Quando ameaçado, pode expelir partes de seus órgãos internos (evisceração) para distrair predadores, regenerando-os depois.",
+    "link": "https://pt.wikipedia.org/wiki/Pepino-do-mar"
+  },
+  {
+    "nome": "Bolacha-do-mar",
+    "categoria": "Equinodermos",
+    "nome_científico": "clypeasteroida",
+    "descricao": "Ouriço-do-mar achatado e de corpo rígido, adaptado para viver em fundos arenosos. Seu esqueleto seco e sem espinhos é frequentemente encontrado em praias.",
+    "link": "https://pt.wikipedia.org/wiki/Bolacha-do-mar"
+  }
+]

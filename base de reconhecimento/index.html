@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Define o elemento raiz da página e o idioma como português do Brasil -->
+<head> <!-- Contém metadados e links para recursos externos -->
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 para suportar acentos e símbolos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante que a página seja responsiva em diferentes dispositivos -->
+    <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo de folha de estilos CSS externo -->
+    <title>Os animais marinhos</title> <!-- Define o título que aparece na aba do navegador -->
+</head>
+<body> <!-- Contém todo o conteúdo visível da página web -->
+
+    <header> <!-- Define o cabeçalho da página -->
+        <h1>Espécimes de animais marinhos</h1> <!-- Título principal da página -->
+        <div id="filter-container"></div> <!-- Novo container para o filtro de categoria -->
+        <div id="search-container"> <!-- Agrupa os elementos de busca com um ID para estilização -->
+            <input type="text" placeholder="digite uma espécime"> <!-- Campo de entrada de texto para a busca -->
+             <button id="botão-busca">Buscar</button> <!-- O evento de clique agora é gerenciado pelo script.js -->
+        </div>
+    </header>
+
+    <main> <!-- Define o conteúdo principal e central da página -->
+        <section class="card-container">
+            <!-- <article>
+            <h2>JavaScript</h2>
+            <p>1995</p>
+            <p>JavaScript é uma linguaguem de programação</p>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saiba mais</a>
+            </article> -->
+        </section>
+    </main>
+
+    <footer class="footer"> <!-- Define o rodapé da página -->
+        <p>Links</p>
+        <ul class="footer-links"> <!-- Lista não ordenada para agrupar os links do rodapé -->
+            <li> <!-- Item da lista -->
+                <a href="https://github.com/NanaDevCode">github</a> <!-- Link para um recurso externo -->
+            </li>
+            <li> <!-- Item da lista -->
+                <a href="https://substack.com/@boloderedvelvet">substack</a> <!-- Link para um recurso externo -->
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
